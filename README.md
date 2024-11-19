@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Pitz-y
+- 👋 Hi, I’m Mutaga-Devin
 - 👀 I’m interested in javascript- fullstack
 - 🌱 I’m currently learning reactjs, nodejs
 - 💞️ I’m looking to collaborate on fun
