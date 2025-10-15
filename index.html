@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal portfolio website">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="Home">My<span>Portfolio</span></a>
+            <nav class="site-nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul id="nav-menu" class="nav-list">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home" class="site-main">
+        <!-- Hero / Intro section -->
+        <section class="section hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Hello, I’m <span class="accent">Mutaga</span></h1>
+                    <p class="subtitle">I’m a <strong>student</strong> and an aspiring <strong>developer</strong> passionate about building clean, user-friendly experiences. I enjoy learning new technologies, solving problems, and collaborating on projects.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#projects">View Projects</a>
+                        <a class="btn outline" href="#contact">Contact Me</a>
+                    </div>
+                    <ul class="socials" aria-label="Social links">
+                        <li>
+                            <a href="https://github.com/Pitz-y" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                                <!-- GitHub icon -->
+                                <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.41-4.04-1.41-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.77-1.6-2.67-.31-5.48-1.34-5.48-5.94 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.56.12-3.26 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.7.24 2.95.12 3.26.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0 0 12 .5Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/zoom-supermarket-devin-545775332/overlay/about-this-profile/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                                <!-- LinkedIn icon -->
+                                <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M4.98 3.5C4.98 4.88 3.85 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V23h-4v-6.6c0-1.58-.03-3.62-2.2-3.62-2.2 0-2.54 1.72-2.54 3.5V23h-3.85V8.5z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:devinpetermutaga@gmail.com" aria-label="Email">
+                                <!-- Mail icon -->
+                                <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-media">
+                    <img src="Screenshot 2025-06-24 083247.png" alt="Portrait of Your Name" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I’m passionate about technology, education, and creative problem-solving. I like to explore web development, data, and design. Outside of tech, I enjoy reading, sports, and volunteering.</p>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                    <li>Accessibility Basics</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Project One</h3>
+                        <p>A short description of the project and what you built or learned.</p>
+                        <div class="project-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer noopener">Live</a>
+                            <a class="btn small outline" href="https://github.com/Pitz-y" target="_blank" rel="noreferrer noopener">Code</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Another example project. .</p>
+                        <div class="project-actions">
+                            <a class="btn small" href="#" target="_blank" rel="noreferrer noopener">Live</a>
+                            <a class="btn small outline" href="https://github.com/Pitz-y" target="_blank" rel="noreferrer noopener">Code</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Want to collaborate or just say hi? Reach me at <a href="mailto:devinpetermutaga@gmail.com">devinpetermutaga.com</a> or send a message on LinkedIn.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with copyright and quick links -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+            <a class="back-to-top" href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+https://github.com/Pitz-y
